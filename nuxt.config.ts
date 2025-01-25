@@ -7,4 +7,7 @@ export default defineNuxtConfig({
     preset: 'static',
   },
   ssr: false, // Disable SSR
+  app: {
+    baseURL: '/KristinaWebPage/', // Replace with your repository name
+  },
 })
