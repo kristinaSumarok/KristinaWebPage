@@ -5,5 +5,9 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui'],
   nitro: {
     preset: 'static',
-  }
+  },
+  ssr: false, // Disable SSR
+  app: {
+    baseURL: '/KristinaWebPage/', // Replace <repository-name> with your repo name
+  },
 })
